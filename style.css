@@ -1,0 +1,83 @@
+body {
+	background: #333;
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.container {
+	width: 1100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-radius: 10px;
+}
+
+.sidebar {
+	margin: auto;
+	display: flex;
+	flex: 1 1 40%;
+	background-color: #fff;
+	background-image: url("https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+
+.logoSpace {
+	background-color: white;
+	height: 100px;
+	opacity: 90%;
+	display: flex;
+	justify-content: center;
+}
+
+.logoimg {
+	width: 150px;
+	height: auto;
+}
+
+.formSpace {
+	flex: 1 1 60%;
+	background: #fff;
+	font-family: dm sans;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 40px;
+}
+
+.formData {
+}
+
+.formData .dataRow {
+	padding: 20px 0px 0px 0px;
+	display: flex;
+	justify-items: start;
+	gap: 30px;
+}
+
+.formData input {
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	padding: 9px;
+	border-radius: 5px;
+}
+
+.formData button {
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	font-size: 18px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
